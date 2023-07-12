@@ -1,0 +1,88 @@
+body{
+    font-family: 'Oxanium', sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+body::before{
+    content: "";
+    background-image: url("../imgs/bg-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.selection-heros {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selection-heros .list-heros{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selection-heros .heros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selection-heros .heros .title{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
+
+.selection-heros .heros img{
+    width: 100%;
+    height: 100%;
+}
+
+.selection-heros .list-heros .hero.selected {
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.selection-heros .current-hero {
+    text-align: center;
+    max-height: 530px;
+}
+
+.current-hero .hero-focus {
+    width: 430px;
+    height: 430px;
+}
+
+.current-hero .hero-name{
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.current-hero .hero-description{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center; 
+    margin-top: 20px;
+    width: 420px;
+}

@@ -1,0 +1,36 @@
+@media (max-width: 1120px){
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .selection-heros {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    .selection-heros .heros {
+        margin-top: 35px;
+    }
+
+    .selection-heros .heros .title {
+        font-size: 15px;
+    }
+
+    .selection-heros .list-heros {
+        gap: 9px;
+    }
+
+    .selection-heros .list-heros .hero img{
+        width: 80px;
+    }
+
+    .selection-heros .current-hero .hero-focus{
+        width: 350px;
+        height: 350px;
+    }
+    .selection-heros .hero-info .hero-description{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
