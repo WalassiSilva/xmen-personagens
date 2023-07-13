@@ -54,6 +54,10 @@ body::before{
     text-align: center;
 }
 
+.selection-heros .hero {
+    border-bottom: 4px solid #47f4ff;
+}
+
 .selection-heros .heros img{
     width: 100%;
     height: 100%;
